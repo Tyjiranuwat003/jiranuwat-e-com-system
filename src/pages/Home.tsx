@@ -8,7 +8,7 @@ export const Home = () => {
     <Container>
       <Box sx={{ mt: 4 }}>
         <Typography variant="h4" component="h1" gutterBottom>
-          ยินดีต้อนรับสู่ระบบ E-Commerce JECS-1-build-a-product-grid-ui
+          ยินดีต้อนรับสู่ระบบ E-Commerce 2.0.1
         </Typography>
         <Typography variant="h6" color="textSecondary" paragraph>
           คุณได้เข้าสู่ระบบเรียบร้อยแล้ว
