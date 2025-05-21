@@ -8,7 +8,7 @@ import {
   Paper
 } from '@mui/material';
 
-export default function Login() {
+export const Login = () => {
   const [formData, setFormData] = useState({
     username: '',
     password: ''
@@ -80,4 +80,4 @@ export default function Login() {
       </Box>
     </Container>
   );
-}
+};
