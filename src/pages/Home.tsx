@@ -8,9 +8,9 @@ export const Home = () => {
     <Container>
       <Box sx={{ mt: 4 }}>
         <Typography variant="h4" component="h1" gutterBottom>
-          ยินดีต้อนรับสู่ระบบ E-Commerce 2.0.1
+          ยินดีต้อนรับสู่ระบบ E-Commerce Production 3.0.0 Notify Email
         </Typography>
-        <Typography variant="h6" color="textSecondary" paragraph>
+        <Typography variant="h6"  paragraph>
           คุณได้เข้าสู่ระบบเรียบร้อยแล้ว
         </Typography>
         <Button 
