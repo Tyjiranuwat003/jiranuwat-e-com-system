@@ -8,8 +8,10 @@ import {
   Button,
   Paper,
   Alert,
-  Snackbar
+  Snackbar,
+  Avatar
 } from '@mui/material';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { validateLogin } from '../data/mockUsers';
 
 export const Login = () => {
@@ -58,8 +60,14 @@ export const Login = () => {
           alignItems: 'center',
         }}
       >
+        <Avatar sx={{ m: 1, bgcolor: 'primary.main', width: 56, height: 56 }}>
+          <ShoppingCartIcon sx={{ fontSize: 32 }} />
+        </Avatar>
+        <Typography component="h1" variant="h4" align="center" sx={{ mb: 3 }}>
+          E-Commerce System
+        </Typography>
         <Paper elevation={3} sx={{ p: 4, width: '100%' }}>
-          <Typography component="h1" variant="h5" align="center" gutterBottom>
+          <Typography component="h2" variant="h5" align="center" gutterBottom>
             เข้าสู่ระบบ
           </Typography>
           {error && (
