@@ -12,6 +12,11 @@ export default defineConfig({
       output: {
         manualChunks: undefined
       }
-    }
+    },
+    sourcemap: true
+  },
+  server: {
+    port: 3000,
+    open: true
   }
 })
