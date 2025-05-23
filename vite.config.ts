@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/jiranuwat-e-com-system/',
+  base: './',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
@@ -12,11 +12,6 @@ export default defineConfig({
       output: {
         manualChunks: undefined
       }
-    },
-    sourcemap: true
-  },
-  server: {
-    port: 3000,
-    open: true
+    }
   }
 })
