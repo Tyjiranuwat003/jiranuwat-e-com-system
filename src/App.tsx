@@ -4,7 +4,8 @@ import { Home } from './pages/Home'
 import './App.css'
 
 function App() {
-  const basename = import.meta.env.DEV ? '/' : '/jiranuwat-e-com-system'
+  // ใช้ basename ที่ถูกต้องสำหรับ GitHub Pages URL
+  const basename = '/jiranuwat-e-com-system'
   
   return (
     <Router basename={basename}>

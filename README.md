@@ -19,7 +19,7 @@ npm run dev
 เว็บไซต์จะถูก deploy อัตโนมัติไปที่ GitHub Pages เมื่อมีการ push เข้า branch main
 
 สามารถเข้าชมเว็บไซต์ได้ที่:
-https://[your-github-username].github.io/jiranuwat-e-com-system/
+https://tyjiranuwat003.github.io/jiranuwat-e-com-system/
 
 ## ข้อมูลสำหรับทดสอบ
 
