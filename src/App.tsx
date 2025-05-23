@@ -4,8 +4,10 @@ import { Home } from './pages/Home'
 import './App.css'
 
 function App() {
+  const basename = import.meta.env.DEV ? '/' : '/jiranuwat-e-com-system'
+  
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
